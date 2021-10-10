@@ -8,7 +8,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Favorite Sounds`,
+    siteTitleAlt: `Favorite Sounds`,
+    siteHeadline: `Favorite Sounds`,
+    siteUrl: `https://jaechan-so.github.io`,
+    siteDescription: ``,
+    siteLanguage: `kr`,
+    siteImage: `/banner.jpg`,
+    author: `@Jaechan-So`,
   },
   plugins: [
     {
