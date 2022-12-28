@@ -1,5 +1,4 @@
 import { HiThereOpening } from './HiThereOpening';
-import { Profile } from './Profile';
 import * as styles from './styles.css';
 import usePhase from './usePhase';
 
@@ -15,9 +14,7 @@ const Home = () => {
         </div>
       </div>
       {phase === 'show-profiles' ? (
-        <div className={styles.profileContainerStyle}>
-          <Profile />
-        </div>
+        <div className={styles.profileContainerStyle} />
       ) : null}
     </div>
   );
