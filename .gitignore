@@ -10,7 +10,8 @@
 
 # next.js
 /.next/
-/out/
+# out directory should not included in .gitignore.
+# /out/
 
 # production
 /build
