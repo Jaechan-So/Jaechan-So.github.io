@@ -12,15 +12,16 @@ export const rootContainerStyle = style({
 });
 
 export const profileContainerStyle = style([
-  responsiveStyle({
-    desktop: {
-      marginTop: 50,
-    },
-    mobile: {
-      marginTop: 30,
-    },
-  }),
+  // responsiveStyle({
+  //   desktop: {
+  //     marginTop: 50,
+  //   },
+  //   mobile: {
+  //     marginTop: 30,
+  //   },
+  // }),
   {
+    height: '100%',
     width: '100%',
   },
 ]);
