@@ -15,5 +15,6 @@ export const cardContainerStyle = style([
   }),
   {
     background: 'rgba(255, 255, 255, 0.8)',
+    width: '100%',
   },
 ]);
